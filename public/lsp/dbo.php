@@ -37,7 +37,7 @@ $LSP_URL = '/lsp/';
  * is done in a separate config file defined as $LSP_CONFIG which should be out
  * of the document root and inaccessible from a webpage.
  */
-$LSP_SECRET = '/home/deploy/secrets/LSP_SECRETS';
+$LSP_SECRET = '/home/deploy/secrets/LSP_SECRETS_DEV';
 if (file_exists($LSP_SECRET)) { include($LSP_SECRET); }
 
 /*
